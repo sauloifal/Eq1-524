@@ -20,5 +20,5 @@ font-size: 24px;
 color: black;
 font-weight: bold;
 
-  text-align: center;
+text-align: center;
 `;

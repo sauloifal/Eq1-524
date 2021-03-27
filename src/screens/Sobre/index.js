@@ -14,15 +14,7 @@ import Heart from "../../assets/heart.svg";
 
 import { Container} from "./styles";
 
-const OpenURL = async (url) => {
-  const supported = await Linking.canOpenURL(url);
 
-  if (supported) {
-    await Linking.openURL(url);
-  } else {
-    Alert.alert(`Não conseguimos abrir esta URL: ${url}`);
-  }
-};
 
 const Sobre = () => {
   const navigation = useNavigation();
@@ -65,7 +57,7 @@ const Sobre = () => {
           height={70}
           style={{ top: 20, }} />
           
-      <Title style={{ color: "black", fontSize: 22, margintop: 10}}>{"\n"}Feito com muito amor!</Title>
+      <Title style={{ color: "black", fontSize: 22}}>{"\n"}Feito com muito amor!</Title>
       
       <ArticleBody3>
       Este projeto foi desenvolvido com o intuito de ajudar e encorajar o
