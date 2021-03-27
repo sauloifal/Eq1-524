@@ -32,17 +32,17 @@ const Home = () => {
           <World width={32} height={32} />
         </Showcase>
         <Button
-          style={{ marginTop: 20 }}
+          style={{ marginTop: 0 }}
           onPress={() => navigation.navigate("Mais")}
         >
-          <Title>Saiba mais!</Title>
+          <Title style={{ fontWeight: "300", fontSize: 16 }}>MAIS INFORMAÇÕES</Title>
         </Button>
         <Button
-          style={{ backgroundColor: "transparent", elevation: 0 }}
+          style={{ backgroundColor: "#cd9b9b", elevation: 0, marginTop:5 }}
           onPress={() => navigation.navigate("Sobre")}
         >
           <Title style={{ fontWeight: "300", fontSize: 16 }}>
-            Sobre o projeto!
+            SOBRE
           </Title>
         </Button>
       </Box>

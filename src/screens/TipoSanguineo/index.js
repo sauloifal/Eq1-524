@@ -22,7 +22,7 @@ const TipoSanguineo = () => {
         type: "A",
         title: "Tipo A",
         description:
-          "A galera do tipo sanguíneo A tem o antígeno A nas células vermelhas e os anticorpos B no plasma. Essas pessoas podem doar sangue para os tipos A e AB.",
+          "A galera do tipo sanguíneo A tem o antígeno A nas células vermelhas e os anticorpos B no plasma. Essas pessoas podem doar sangue para os tipos A e AB. Além disso, vale ressaltar que, as pessoas do tipo A podem receber doações de sangue dos tipos A e O.",
         font: "FONTE: MegaCurioso",
         fontUrl:
           "https://www.megacurioso.com.br/medicina-e-psicologia/57717-tipos-sanguineos-a-relacao-de-cada-um-com-a-saude-e-a-personalidade.htm#:~:text=O%20tipo%20O%20positivo%20%C3%A9,s%C3%A3o%20doadores%20universais%20de%20plasma.",
@@ -31,7 +31,7 @@ const TipoSanguineo = () => {
         type: "B",
         title: "Tipo B",
         description:
-          "O tipo sanguíneo B tem somente antígenos do grupo B nas células vermelhas e anticorpos do tipo A no plasma. Essas pessoas podem doar sangue para quem é dos tipos B e AB.",
+          "O tipo sanguíneo B tem somente antígenos do grupo B nas células vermelhas e anticorpos do tipo A no plasma. Essas pessoas podem doar sangue para quem é dos tipos B e AB. No que diz respeito a receber, as pessoas do tipo B são receptoras dos tipos B e O.",
         font: "FONTE: MegaCurioso",
         fontUrl:
           "https://www.megacurioso.com.br/medicina-e-psicologia/57717-tipos-sanguineos-a-relacao-de-cada-um-com-a-saude-e-a-personalidade.htm#:~:text=O%20tipo%20O%20positivo%20%C3%A9,s%C3%A3o%20doadores%20universais%20de%20plasma.",
@@ -40,7 +40,7 @@ const TipoSanguineo = () => {
         type: "AB",
         title: "Tipo AB",
         description:
-          "Esse grupo sanguíneo tem antígenos A e B nas células vermelhas do sangue, mas não tem anticorpos A ou B no plasma, por isso são os receptores universais.",
+          "Esse grupo sanguíneo tem antígenos A e B nas células vermelhas do sangue, mas não tem anticorpos A ou B no plasma, por isso são os receptores universais. Ou seja, recebem doação de qualquer tipo sanguíneo. É importante salientar que, as pessoas do tipo AB só podem doar para o tipo AB.",
         font: "FONTE: MegaCurioso",
         fontUrl:
           "https://www.megacurioso.com.br/medicina-e-psicologia/57717-tipos-sanguineos-a-relacao-de-cada-um-com-a-saude-e-a-personalidade.htm#:~:text=O%20tipo%20O%20positivo%20%C3%A9,s%C3%A3o%20doadores%20universais%20de%20plasma.",
@@ -49,7 +49,7 @@ const TipoSanguineo = () => {
         type: "O",
         title: "Tipo O",
         description:
-          "Se seu sangue é do tipo O, significa que você não tem nem o antígeno A nem o B em suas células vermelhas, mas tem tanto os anticorpos A quanto os B em seu plasma. O tipo O positivo é o mais comum; mas somente o O negativo é considerado doador universal, o que significa que quem tem esse tipo sanguíneo pode doar suas células vermelhas para qualquer pessoa, diferente de quem é do tipo AB, que são doadores universais de plasma.",
+          "Se seu sangue é do tipo O, significa que você não tem nem o antígeno A nem o B em suas células vermelhas, mas tem tanto os anticorpos A quanto os B em seu plasma. O tipo O positivo é o mais comum; mas somente o O negativo é considerado doador universal, o que significa que quem tem esse tipo sanguíneo pode doar suas células vermelhas para qualquer pessoa, diferente de quem é do tipo AB, que são doadores universais de plasma. Dito isso, é válido destacar que, as pessoas que tem o sangue do tipo O só recebem doação do mesmo tipo sanguíneo.",
         font: "FONTE: MegaCurioso",
         fontUrl:
           "https://www.megacurioso.com.br/medicina-e-psicologia/57717-tipos-sanguineos-a-relacao-de-cada-um-com-a-saude-e-a-personalidade.htm#:~:text=O%20tipo%20O%20positivo%20%C3%A9,s%C3%A3o%20doadores%20universais%20de%20plasma.",

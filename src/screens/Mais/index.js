@@ -88,6 +88,22 @@ const Mais = () => {
           >
             Fonte: COLSAN
           </ArticleFont>
+
+          <ArticleBody>
+            {"\n"}
+              Hemoal Arapiraca: {"\n"}
+              
+              R. Desportista Ernesto Alves Siqueira, 49, Centro, Arapiraca - AL, 57300-095
+              {"\n"}
+            </ArticleBody>
+
+          <ArticleBody>
+              Hemoal Maceió: {"\n"}
+              R. Dr. Jorge de Lima, 58, Trapiche da Barra, Maceió - AL, 57010-300
+              {"\n"}
+            </ArticleBody>
+            
+
         </Article>
       </ScrollView>
     </Container>

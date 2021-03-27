@@ -17,6 +17,20 @@ export const ArticleBody = styled.Text`
   font-weight: 500;
 `;
 
+export const ArticleBody2 = styled.Text`
+  font-size: 13px;
+  color: whitesmoke;
+  text-align: justify;
+  font-weight: 500;
+`;
+
+export const ArticleBody3 = styled.Text`
+  font-size: 13px;
+  color: black;
+  text-align: justify;
+  font-weight: 500;
+`;
+
 export const ArticleFont = styled.Text`
   font-size: 16px;
   padding-top: 10px;

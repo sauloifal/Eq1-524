@@ -14,3 +14,11 @@ export const Subtitle = styled.Text`
 
   text-align: center;
 `;
+
+export const Title2 = styled.Text`
+font-size: 24px;
+color: black;
+font-weight: bold;
+
+  text-align: center;
+`;
