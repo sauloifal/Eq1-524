@@ -1,42 +1,13 @@
-/*/ import React from "react";
-
-import Title, { Subtitle } from "../../components/Title";
-
-import Heart from "../../assets/heart.svg";
-
-import { Container } from "./styles";
-
-const Sobre = () => {
-  return (
-    <Container>
-      <Heart width={"50%"} height={"50%"} />
-      <Title style={{ color: "black" }}>Feito com muito amor!</Title>
-      <Subtitle>
-        Este projeto foi desenvolvido com o intuito de ajudar e encorajar o
-        máximo de pessoas possíveis a concientizarem-se e doarem sangue, esse é
-        um ato saudoso e que deve fazer parte da rotina de todos nós. Doar
-        sangue salva vidas!
-      </Subtitle>
-    </Container>
-  );
-};
-
-export default Sobre;
-/*/
-
 import React from "react";
 import { ScrollView, Linking, Alert, Image, View } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import Article, {
-  ArticleBody,
   ArticleBody2,
   ArticleBody3,
-  ArticleFont,
-  ArticleTitle,
 } from "../../components/Article";
 import Box from "../../components/Box";
-import Title, { Subtitle } from "../../components/Title";
+import Title from "../../components/Title";
 
 import Donation from "../../assets/donation.svg";
 import Heart from "../../assets/heart.svg";
