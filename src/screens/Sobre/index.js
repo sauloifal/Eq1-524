@@ -1,18 +1,18 @@
 import React from "react";
-import { ScrollView, Linking, Alert, Image, View } from "react-native";
+import { ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 import Article, {
   ArticleBody2,
   ArticleBody3,
-} from "../../components/Article";
+} from "../../components/Article"; 
 import Box from "../../components/Box";
 import Title from "../../components/Title";
 
 import Donation from "../../assets/donation.svg";
 import Heart from "../../assets/heart.svg";
 
-import { Container} from "./styles";
+import { Container } from "./styles";
 
 
 
