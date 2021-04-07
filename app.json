@@ -8,7 +8,8 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "platforms": ["android", "ios"]
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,6 +19,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.pmovel.doesangue",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
